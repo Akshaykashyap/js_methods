@@ -3,13 +3,26 @@ var numbers = [1, 12, 4, 18, 9, 7, 11, 3, 101, 5, 6];
 var strings = ["this", "is", "a", "collection", "of", "words"];
 
 // Use the above two arrays and practice array methods
-
+ 
+// for each method
+numbers.forEach(num => {
+  console.log(num+1);
+})
+// map method 
+numbers.map(num => num+1);
+(11) [2, 13, 5, 19, 10, 8, 12, 4, 102, 6, 7]
+// filter metohd
+numbers.filter(num => num>length);
+(9) [12, 4, 18, 9, 7, 11, 101, 5, 6]
+// splice method
+numbers.splice(1,0,10);
+(12) [1, 10, 12, 4, 18, 9, 7, 11, 3, 101, 5, 6]
 // Find largest number in numbers
 
 // Find longest string in strings
 
 // Find all the even numbers
-
+    
 // Find all the odd numbers
 
 // Find all the words that contain 'is' use string method 'includes'
@@ -21,7 +34,7 @@ var strings = ["this", "is", "a", "collection", "of", "words"];
 //  Sort Array from smallest to largest
 
 // Remove the last word in strings
-
+numbers.push()
 // Add a new word in the array
 
 // Remove the first word in the array
