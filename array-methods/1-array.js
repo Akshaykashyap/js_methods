@@ -33,8 +33,8 @@ numbers.splice(1,0,10);
 
 //  Sort Array from smallest to largest
 
-// Remove the last word in strings
-numbers.push()
+// Remove the last word in string
+
 // Add a new word in the array
 
 // Remove the first word in the array
