@@ -18,13 +18,25 @@ numbers.filter(num => num>length);
 numbers.splice(1,0,10);
 (12) [1, 10, 12, 4, 18, 9, 7, 11, 3, 101, 5, 6]
 // Find largest number in numbers
-
+numbers[8];
 // Find longest string in strings
-
+strings[3];
 // Find all the even numbers
-    
+numbers.filter(num => {
+  if (num%2==0) {
+      return num;
+  }
+})
+(4) [12, 4, 18, 6]
 // Find all the odd numbers
-
+numbers.filter(num => {
+  if (num%2==0) {
+      return 0;
+  } else {
+      return num;
+  }
+})
+(7) [1, 9, 7, 11, 3, 101, 5]
 // Find all the words that contain 'is' use string method 'includes'
 
 // Find all the words that contain 'is' use string method 'indexOf'
@@ -34,19 +46,22 @@ numbers.splice(1,0,10);
 //  Sort Array from smallest to largest
 
 // Remove the last word in string
-
+strings.pop();
 // Add a new word in the array
-
+strings.push("hello"); in last.
+strings.unshift("world"); in start
 // Remove the first word in the array
+strings.shift();
 
 // Place a new word at the start of the array use (upshift)
-
+strings.upshift("welcome");
 // Make a subset of numbers array [18,9,7,11]
 
 // Make a subset of strings array ['a','collection']
 
 // Replace 12 & 18 with 1221 and 1881
-
+numbers.splice(1,1,1221); for 12
+numbers.splice(3,1,1821);
 // Replace words with string in strings array
 
 // Customers Array
