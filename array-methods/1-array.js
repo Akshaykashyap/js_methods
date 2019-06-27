@@ -38,13 +38,23 @@ numbers.filter(num => {
 })
 (7) [1, 9, 7, 11, 3, 101, 5]
 // Find all the words that contain 'is' use string method 'includes'
-
+for (var key in strings) {
+  if (key.includes("of", 0) == true) {
+      console.log(strings.[key]);
+  } else {
+      console.log("nothing");
+  }
+}
 // Find all the words that contain 'is' use string method 'indexOf'
 
 // Check if all the numbers in numbers array are divisible by three use array method (every)
-
+function funct(value) {
+  return value/3;
+}
+numbers.every(funct)
 //  Sort Array from smallest to largest
-
+strings.sort();
+numbers.sort();
 // Remove the last word in string
 strings.pop();
 // Add a new word in the array
@@ -52,18 +62,17 @@ strings.push("hello"); in last.
 strings.unshift("world"); in start
 // Remove the first word in the array
 strings.shift();
-
 // Place a new word at the start of the array use (upshift)
 strings.upshift("welcome");
 // Make a subset of numbers array [18,9,7,11]
-
+numbers.splice(10, 0, 18,9,7,11)
 // Make a subset of strings array ['a','collection']
-
+strings.splice(5, 0, "a","collection")
 // Replace 12 & 18 with 1221 and 1881
-numbers.splice(1,1,1221); for 12
+numbers.splice(1,1,1221); 
 numbers.splice(3,1,1821);
 // Replace words with string in strings array
-
+strings.splice(5, 1, "strings")
 // Customers Array
 var customers = [
   { firstname: "Joe", lastname: "Blogs" },

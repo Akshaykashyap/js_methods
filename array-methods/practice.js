@@ -2,7 +2,7 @@
 // map
 // forEach
 // filter
-// splics
+// splice
 
 var pizzas = [
   "Deep Dish",
@@ -45,7 +45,6 @@ cuts.filter(val => val<cuts.length)
 //splice
 cuts.splice(2,1,"hello")
 //
-
 var numbers = [1, 2, 3, 4, 5, 6, 23, 121, 345, 33, 23, 12, 435, 642, 66, 23];
 // map
 numbers.map(function value(val){
