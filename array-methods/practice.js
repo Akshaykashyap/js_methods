@@ -38,20 +38,27 @@ var cuts = [
 ];
 //map
 cuts.map(val => val+" "+"cuts")
+
 //foreach
 cuts.forEach(val => val+"" 2)
+
 //filter
 cuts.filter(val => val<cuts.length)
+
 //splice
 cuts.splice(2,1,"hello")
+
 //
 var numbers = [1, 2, 3, 4, 5, 6, 23, 121, 345, 33, 23, 12, 435, 642, 66, 23];
 // map
+
 numbers.map(function value(val){
   return val+2;
 }
 // filter
+
 numbers.filter(fun => fun<numbers.length)
 //splice
+
 numbers.splice(2, 1, "welcome")
 
