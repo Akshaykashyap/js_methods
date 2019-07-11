@@ -85,3 +85,4 @@ var customers = [
 // Create new array with firstname and lastname
 
 // Sort the array created above alphabetically
+customers.sort((a, b) => b-a);
